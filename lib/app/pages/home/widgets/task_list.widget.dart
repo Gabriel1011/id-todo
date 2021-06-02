@@ -3,7 +3,7 @@ import 'package:todo/app/model/task.model.dart';
 import 'package:todo/app/pages/home/widgets/task.widget.dart';
 
 class TaskListTodoWidget extends StatelessWidget {
-  final List<Task> itens;
+  final List<TaskModel> itens;
 
   const TaskListTodoWidget({Key key, @required this.itens}) : super(key: key);
 

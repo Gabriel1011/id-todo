@@ -1,13 +1,13 @@
 import 'package:todo/app/model/task.model.dart';
 
 class TodoController {
-  List<Task> allTasks;
+  List<TaskModel> allTasks;
 
   void getAllTaks() {
-    allTasks = <Task>[];
+    allTasks = <TaskModel>[];
   }
 
   void addTask(String title) {
-    allTasks.add(Task(title: title, done: false));
+    allTasks.add(TaskModel(title: title, done: false));
   }
 }

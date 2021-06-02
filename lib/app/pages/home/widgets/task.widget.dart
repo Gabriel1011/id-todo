@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo/app/model/task.model.dart';
 
 class TaskWidget extends StatefulWidget {
-  Task task;
+  final TaskModel task;
   TaskWidget({Key key, @required this.task}) : super(key: key);
 
   @override

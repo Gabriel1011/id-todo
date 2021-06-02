@@ -1,7 +1,8 @@
-class Task {
+class TaskModel {
   String title;
   bool done;
-  Task({
+
+  TaskModel({
     this.title,
     this.done,
   });
